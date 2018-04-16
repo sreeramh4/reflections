@@ -1,0 +1,27 @@
+Manually scanning the code for errors was a bit tedious task.
+Had to look for the + or - parts first.
+Then look for the typo.
+
+Using History for Efficiency
+Having access to older versions gives you the luxury of reverting back when/if you realize that they provided a more elegant solution compared to your future iterations.
+
+15.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+Commit specifies a state in which a logical change has been made
+More precise in terms of deciphering later on
+Cons:
+Data loss in terms of losing power supply
+Wont be able to trace any changes made inbetween commits. Like the alternatives you tried out before finalising to upload one solution.
+
+18. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git has been designed to handle and keep track of changes made to multiple files with interdependecies whereas the others dont require such features for their designated tasks.
+
+22. How can you use the commands git log and git diff to view the history of files?
+git log - First cd into the cloned repository. Then use git log command in terminal. It gives you all the commits made on all the files in your repo.
+
+git diff v1 v2 - where v1 and v2 are commit IDs. Shows you the changes made between the two versions
+
+26. How might using version control make you more confident to make changes that could break something?
+
+Earlier the fear of breaking something was certainly hovering over me when I was about to make any changes. But knowing that I can revert to earlier versions gives me the confidence to mess around more with the code.
