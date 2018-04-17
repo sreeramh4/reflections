@@ -9,8 +9,9 @@ It provides us with the ability to choose the files from the working directory t
 How can you use the staging area to make sure you have one commit per logical change?
 Whenever a file is edited I can move it into the Staging Area by using git add, then I can use git commit to add it to the Repository along with a commit message signifying the changes made. If I have to modify multiple files to bring forth a particular change, I can edit them one by one and add them to the Staging Area as I go along. Once I'm finished, I can add them to the repo as a single commit.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches could be used while you're trying to test an experimental feature but you do not want to compromise the master. Or is you want to develop an alternate version of the file without causing faults to the master.
+Branches allow for a seperate path consisting of all the version of files until then. Once the branch is created all changes made to files will be bound to the branch and it won't affect the master in any way.
 
 How do the diagrams help you visualize the branch structure?
 
