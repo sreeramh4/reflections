@@ -25,3 +25,6 @@ git diff v1 v2 - where v1 and v2 are commit IDs. Shows you the changes made betw
 26. How might using version control make you more confident to make changes that could break something?
 
 Earlier the fear of breaking something was certainly hovering over me when I was about to make any changes. But knowing that I can revert to earlier versions gives me the confidence to mess around more with the code.
+
+31. Now that you have your workspace set up, what do you want to try using Git for?
+It's more like how much more I'll use th terminal to use git as I already have a couple of projects on Github. :)

@@ -14,6 +14,8 @@ Branches could be used while you're trying to test an experimental feature but y
 Branches allow for a seperate path consisting of all the version of files until then. Once the branch is created all changes made to files will be bound to the branch and it won't affect the master in any way.
 
 How do the diagrams help you visualize the branch structure?
+The diagrams helped give a clear picture of how the branch structure is. They enabled me to figure out how commits are arranged and how git log works. When you use git log, the commits displayed, follow a path which leads to the last commit which doesnt have a parent. It also showed me how commits that aren't reachable by the main branch's git log could exist within the branch stucture.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
