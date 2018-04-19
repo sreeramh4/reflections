@@ -17,8 +17,8 @@ How do the diagrams help you visualize the branch structure?
 The diagrams helped give a clear picture of how the branch structure is. They enabled me to figure out how commits are arranged and how git log works. When you use git log, the commits displayed, follow a path which leads to the last commit which doesnt have a parent. It also showed me how commits that aren't reachable by the main branch's git log could exist within the branch stucture.
 
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together allowed the additions made to both branches become a single entity. We represent it as such because the commit traces its path back through it's parents even after the merge is complete. Prior to the merge the commits of a particular branch will be displayed while using git log. After the merge the commits on either branch will be displayed in order of their time stamps.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
