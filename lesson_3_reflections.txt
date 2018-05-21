@@ -1,0 +1,4 @@
+When you would want to create a remote repository rather than keeping all your work local?
+  When you have to work from multiple locations. 
+  When you have multiple people who are working on the same project and you have to keep track of everyone.
+  When it's necessary to have a backup copy of the commit history.
