@@ -19,3 +19,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	Collaboration without Git or Github would be alot harder. Since we'll have to keep track of multiple versions of the file and since we dont have options like git diff or merge we have no way of pointing out the extent of difference between the versions. So conflict resolution will be hard.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	The workflow when making changes in a separate branch is more complicated than working directly in master, especially when you need to stay up-to-date with changes others are making. Rather than simply pulling and pushing, you need to pull changes into your local master branch, merge the local master into your branch (different-oil, in our case), then push your branch to the remote before finally merging your branch into master, either locally or on GitHub.
+
+	But still sometimes we might want to work on a seperaet feature or fix a bug and that has to be done while keeping the master intact. So branching becomes our only option. In situations like that we could work on a seperate branch and once the maintainence work is done the branch can be merged back into the master.
