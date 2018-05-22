@@ -16,3 +16,6 @@ Cloning the repo hosted on Github sets up a remote for you named origin default
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 	Having a copy of the last known state of the remote stored locally allows you to keep making changes to your work on the master and combine it with the origin/master at some time in the future. Conflict resolution becomes easier as you can run git log and git diff on origin/master and the local version of master branch. (Make a more clear answer later)
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Collaboration without Git or Github would be alot harder. Since we'll have to keep track of multiple versions of the file and since we dont have options like git diff or merge we have no way of pointing out the extent of difference between the versions. So conflict resolution will be hard.
